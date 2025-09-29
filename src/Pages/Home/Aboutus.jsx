@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
-const ContentImageSection = () => {
+const About = () => {
   return (
     <div className="bg-[#f4f4f4] py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-8">
@@ -33,4 +33,4 @@ const ContentImageSection = () => {
   );
 };
 
-export default ContentImageSection;
+export default About;

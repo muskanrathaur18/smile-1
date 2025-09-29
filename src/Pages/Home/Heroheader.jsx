@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function HeroSection() {
+const HeroSection =() => {
   return (
     <div className="h-[300px] sm:h-[400px] bg-[#573d82] relative overflow-hidden flex items-center justify-center">
       <div
@@ -53,3 +53,4 @@ export default function HeroSection() {
     </div>
   );
 }
+export default HeroSection;

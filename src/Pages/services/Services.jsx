@@ -3,13 +3,12 @@ import { Facebook, Twitter, Mail, Linkedin, Share2, MessageSquare } from "lucide
 
 import BlogSection from "../Home/Blog";
 
-export default function BlogDetail() {
+const Services = () => {
   return (
     <>
       <div className="bg-[#8a8a8a] h-[250px] flex flex-col justify-center items-center text-center px-4 sm:px-0">
         <h3 className="text-white text-3xl font-bold">Therefores</h3>
       </div>
-
       <div className="max-w-4xl mx-auto px-4 sm:px-8 py-8 font-sans shadow-2xl shadow-gray-200 bg-white mt-4 border border-gray-300 rounded-md">
         <div className="w-full h-64 sm:h-96 bg-gray-300 rounded-md"></div>
         <div className="flex flex-wrap justify-center sm:justify-center gap-2 sm:gap-4 mt-4">
@@ -121,3 +120,4 @@ export default function BlogDetail() {
     </>
   );
 }
+export default Services;

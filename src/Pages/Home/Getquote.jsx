@@ -1,6 +1,6 @@
 import React from "react";
 
-const GrayDivWithButton = () => {
+const Getquote = () => {
   return (
     <div className="bg-[#573d82] p-6 sm:p-8 max-w-full mx-auto min-h-[320px] flex flex-col justify-center items-center text-center">
       <h2 className="text-xl sm:text-2xl font-bold mb-4 text-white">
@@ -26,4 +26,4 @@ const GrayDivWithButton = () => {
   );
 };
 
-export default GrayDivWithButton;
+export default Getquote;

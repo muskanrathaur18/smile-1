@@ -1,16 +1,13 @@
 import React from "react";
 
-export default function StatsSection() {
+const Activity = () => {
   return (
     <section className="py-8 bg-white">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        {/* Heading */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#573D82]">
           Lorem Ipsum Dolor Sit A{" "}
           <span className="text-[#fed500] italic">Commod</span>
         </h2>
-
-        {/* Description */}
         <p className="mt-4 text-gray-600 leading-relaxed max-w-3xl mx-auto text-sm sm:text-base">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -46,3 +43,4 @@ export default function StatsSection() {
     </section>
   );
 }
+export default Activity;

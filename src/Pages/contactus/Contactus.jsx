@@ -1,7 +1,7 @@
 import React from "react";
 import { MapPin, Phone, Mail } from "lucide-react";
 
-export default function Contact() {
+const Contact = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="bg-[#8a8a8a] h-[270px] text-white flex flex-col justify-center items-center text-center px-4">
@@ -82,3 +82,4 @@ export default function Contact() {
     </div>
   );
 }
+export default Contact;

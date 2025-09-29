@@ -42,7 +42,7 @@ const Card = ({ showText }) => {
   );
 };
 
-const CardGrid = () => {
+const CardSection = () => {
   return (
     <div className="py-4 bg-white px-4 sm:px-6 lg:px-8">
       <h2 className="text-center text-xl sm:text-2xl md:text-3xl font-bold text-[#573d82] mb-12">
@@ -91,4 +91,4 @@ const CardGrid = () => {
   );
 };
 
-export default CardGrid;
+export default CardSection;
