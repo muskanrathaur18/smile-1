@@ -2,7 +2,7 @@ import React from "react";
 import { ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules"; // ✅ correct import
+import { Autoplay } from "swiper/modules"; 
 import "swiper/css";
 
 const Card = ({ showText }) => {
@@ -50,7 +50,6 @@ const CardGrid = () => {
       </h2>
 
       <div className="max-w-5xl mx-auto">
-        {/* Mobile Swiper */}
         <div className="sm:hidden">
           <Swiper
             modules={[Autoplay]}
@@ -73,8 +72,6 @@ const CardGrid = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-
-        {/* Desktop Grid */}
         <div className="hidden sm:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10">
           <Card showText={true} />
           <Card showText={true} />

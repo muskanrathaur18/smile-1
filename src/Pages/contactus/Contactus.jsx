@@ -4,15 +4,12 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export default function Contact() {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header Section */}
       <div className="bg-[#8a8a8a] h-[270px] text-white flex flex-col justify-center items-center text-center px-4">
         <h3 className="font-bold text-3xl">COMMOD US</h3>
         <p className="mt-2 text-sm sm:text-base">
           Lorem Ipsum is simply dummy text of the printing typesetting.
         </p>
       </div>
-
-      {/* Top Icons Section */}
       <div className="flex flex-wrap justify-center items-start gap-4 mb-16 p-8">
         {[
           { icon: MapPin, title: "Lorem Ipsum", desc: "Lorem Ipsum is simply dummy text of the printing typesetting.", info: "WHEN KNOWN" },
@@ -30,8 +27,6 @@ export default function Contact() {
           </div>
         ))}
       </div>
-
-      {/* Form Section */}
       <div className="max-w-2xl mx-auto px-4">
         <h2 className="text-3xl font-light text-purple-600 text-center mb-6">
           Lorem Ipsum is simply do
@@ -43,7 +38,6 @@ export default function Contact() {
         </p>
 
         <form className="space-y-6">
-          {/* First Row */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <input
               type="text"
@@ -56,8 +50,6 @@ export default function Contact() {
               className="w-full border-0 border-b border-gray-300 bg-transparent pb-2 text-gray-700 placeholder-gray-500 focus:border-purple-600 focus:outline-none"
             />
           </div>
-
-          {/* Second Row */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <input
               type="text"
@@ -70,8 +62,6 @@ export default function Contact() {
               className="w-full border-0 border-b border-gray-300 bg-transparent pb-2 text-gray-700 placeholder-gray-500 focus:border-purple-600 focus:outline-none"
             />
           </div>
-
-          {/* Message Field */}
           <div className="pt-4">
             <textarea
               placeholder="Passage"
@@ -79,8 +69,6 @@ export default function Contact() {
               className="w-full border-0 border-b border-gray-300 bg-transparent pb-2 text-gray-700 placeholder-gray-500 focus:border-purple-600 focus:outline-none resize-none"
             ></textarea>
           </div>
-
-          {/* Submit Button */}
           <div className="text-center pb-8">
             <button
               type="submit"

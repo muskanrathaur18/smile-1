@@ -3,7 +3,6 @@ import React from "react";
 const GrayDivWithButton = () => {
   return (
     <div className="bg-[#573d82] p-6 sm:p-8 max-w-full mx-auto min-h-[320px] flex flex-col justify-center items-center text-center">
-      {/* Content */}
       <h2 className="text-xl sm:text-2xl font-bold mb-4 text-white">
         Lorem Ipsum Title
       </h2>
@@ -18,8 +17,6 @@ const GrayDivWithButton = () => {
         dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-
-      {/* Button */}
       <div className="flex justify-center">
         <button className="border border-white text-white px-6 sm:px-10 py-2 rounded-full text-sm sm:text-base">
           Click Here

@@ -44,7 +44,6 @@ const BlogSection = () => {
 
   return (
     <div className="px-4 sm:px-6 lg:px-10 py-10 bg-white">
-      {/* Heading and Button */}
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-lg sm:text-xl font-semibold text-[#573d82]">
           Lorem Ipsum Is
@@ -56,17 +55,15 @@ const BlogSection = () => {
           LOREM IPSUM IS
         </Link>
       </div>
-
-      {/* Swiper */}
       <Swiper
         modules={[Autoplay]}
         spaceBetween={16}
         autoplay={{ delay: 2500, disableOnInteraction: false }}
         loop={true}
         breakpoints={{
-          0: { slidesPerView: 1 },     // Mobile
-          640: { slidesPerView: 2 },   // Tablet
-          1024: { slidesPerView: 3 },  // Desktop
+          0: { slidesPerView: 1 },    
+          640: { slidesPerView: 2 },   
+          1024: { slidesPerView: 3 },  
         }}
         className="py-4"
       >

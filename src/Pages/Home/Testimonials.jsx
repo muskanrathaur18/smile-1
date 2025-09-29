@@ -44,10 +44,10 @@ const Testimonials = () => {
         className="max-w-5xl pb-10 mx-auto"
         breakpoints={{
           0: {
-            slidesPerView: 1, // Mobile: 1 slide
+            slidesPerView: 1, 
           },
           640: {
-            slidesPerView: 2, // Tablet and above: 2 slides
+            slidesPerView: 2, 
           },
         }}
       >
